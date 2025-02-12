@@ -15,7 +15,8 @@ defmodule Commanded.EventStore.Adapters.EventStore.Mapper do
       correlation_id: correlation_id,
       event_type: event_type,
       data: data,
-      metadata: metadata
+      metadata: metadata,
+      event_id: Map.get(event_data, :event_id)
     }
   end
 

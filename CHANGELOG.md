@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.5.0
+
+- Add support for `event_id` in event data. Requires Commanded `v1.5.0` or later. Related to [commanded/commanded#616](https://github.com/commanded/commanded/pull/616).
+
 ## v1.4.2
 
 - Support Commanded v1.4.6 and EventStore v1.4.6

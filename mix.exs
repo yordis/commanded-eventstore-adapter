@@ -1,7 +1,7 @@
 defmodule Commanded.EventStore.Adapters.EventStore.Mixfile do
   use Mix.Project
 
-  @version "1.4.2"
+  @version "1.5.0"
 
   def project do
     [
@@ -39,7 +39,7 @@ defmodule Commanded.EventStore.Adapters.EventStore.Mixfile do
 
   defp deps do
     [
-      {:commanded, "~> 1.4"},
+      {:commanded, "~> 1.5"},
       {:eventstore, "~> 1.4"},
 
       # Optional dependencies
